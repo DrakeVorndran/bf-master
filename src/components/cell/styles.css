@@ -1,0 +1,11 @@
+.cell {
+  border: var(--color-foreground) 2px solid;
+  border-radius: 2px;
+  padding: 5px;
+  margin: 5px;
+  height: 30px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

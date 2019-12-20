@@ -1,0 +1,42 @@
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home > div {
+  border: 2px var(--color-foreground) solid;
+  width: 45vw;
+  height: 45vh;
+  margin: 20px;
+}
+
+.home > .code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home > .code > textarea {
+  height: 95%;
+  width: 95%;
+  resize: none;
+  background: var(--color-background);
+  border: none;
+  font-size: 1em;
+}
+
+.home > .memory {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.home > .memory > .control {
+  width: 95%;
+  border: var(--color-foreground) 2px solid;
+  padding: 10px;
+}
