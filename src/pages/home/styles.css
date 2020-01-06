@@ -7,7 +7,7 @@
 .home > div {
   border: 2px var(--color-foreground) solid;
   width: 45vw;
-  height: 45vh;
+  height: 38vh;
   margin: 20px;
 }
 
@@ -15,6 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .home > .code > textarea {

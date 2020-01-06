@@ -23,21 +23,25 @@ export default function Home() {
       <h1>BF Master</h1>
       <div className="home">
         <div className="code">
+        <h3>Code</h3>
+
           <textarea placeholder="bf code" value={code} onChange={(e) => setCode(e.target.value)} />
         </div>
 
         <div className="output">
+          <h3>Output</h3>
           <p>{code}</p>
         </div>
-
         <div className="memory">
           <div className="control">
+            <h1>Control Panel</h1>
             <button>Run</button>
             <button>Step</button>
             <button>Step Back</button>
           </div>
-          <br/>
-         {code.split("").map((value, i) => <Cell key={`${i}-${value}`} value={value}/>)}
+          <br />
+          <h3>Memory</h3>
+          {code.split("").map((value, i) => <Cell key={`${i}-${value}`} value={value} />)}
         </div>
 
       </div>
