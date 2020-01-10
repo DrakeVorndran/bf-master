@@ -18,6 +18,16 @@
   flex-direction: column;
 }
 
+.home > .input-box {
+  position: fixed;
+  left: 25%;
+  top: 25%;
+  height: 50%;
+  width: 50%;
+  background-color: var(--color-background);
+  border: 2px var(--color-foreground) solid;
+}
+
 .home > .code > textarea {
   height: 95%;
   width: 95%;
@@ -30,9 +40,9 @@
 .home > .memory {
   width: 90vw;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   padding: 10px;
 }
 
@@ -40,4 +50,14 @@
   width: 95%;
   border: var(--color-foreground) 2px solid;
   padding: 10px;
+}
+
+.home > .memory > .cells {
+  flex-wrap: wrap;
+  display: flex;
+  overflow: auto;
+}
+
+.home > .memory > .cells > .pointer {
+  border-color: green;
 }
