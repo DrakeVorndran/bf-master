@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bf-master/static/css/main.81d37f69.chunk.css",
+    "main.js": "/bf-master/static/js/main.c219a5c7.chunk.js",
+    "main.js.map": "/bf-master/static/js/main.c219a5c7.chunk.js.map",
+    "runtime-main.js": "/bf-master/static/js/runtime-main.9a2d3548.js",
+    "runtime-main.js.map": "/bf-master/static/js/runtime-main.9a2d3548.js.map",
+    "static/js/2.f0c31c10.chunk.js": "/bf-master/static/js/2.f0c31c10.chunk.js",
+    "static/js/2.f0c31c10.chunk.js.map": "/bf-master/static/js/2.f0c31c10.chunk.js.map",
+    "index.html": "/bf-master/index.html",
+    "precache-manifest.b4a5f504f04eb27a563b6799e8bbb07c.js": "/bf-master/precache-manifest.b4a5f504f04eb27a563b6799e8bbb07c.js",
+    "service-worker.js": "/bf-master/service-worker.js",
+    "static/css/main.81d37f69.chunk.css.map": "/bf-master/static/css/main.81d37f69.chunk.css.map",
+    "static/js/2.f0c31c10.chunk.js.LICENSE": "/bf-master/static/js/2.f0c31c10.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a2d3548.js",
+    "static/js/2.f0c31c10.chunk.js",
+    "static/css/main.81d37f69.chunk.css",
+    "static/js/main.c219a5c7.chunk.js"
+  ]
+}
